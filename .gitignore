@@ -1,0 +1,35 @@
+# Node.js modules
+node_modules/
+
+# Environment variable files
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS-specific files
+.DS_Store         # macOS
+Thumbs.db         # Windows
+
+# Build output (for frontend frameworks like React or Vue)
+dist/
+build/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# npm package lock file (optional, for some workflows)
+package-lock.json  # Only if you don't want to commit the lock file
+
+# Testing and coverage reports
+coverage/
+
+# Temporary files
+*.swp
+*.swo
+
+# Others that might be project-specific
+*.env.local       # For local environment-specific files
